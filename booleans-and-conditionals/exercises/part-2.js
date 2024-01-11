@@ -5,6 +5,19 @@ let crewStatus = spaceSuitsOn && shuttleCabinReady;
 let computerStatusCode = 200;
 let shuttleSpeed = 15000;
 
+if (crewStatus) {
+    console.log("Crew Ready");
+} else {
+    console.log("Crew Not Ready");
+}
+
+if (shuttleSpeed > 17500) {
+    console.log("ALERT: Escape velocity reached!");
+} else if (shuttleSpeed < 8000) {
+    console.log("ALERT: Cannot maintain orbit!");
+} else {
+    console.log("Stable speed.");
+}
 // 3) Write conditional expressions to satisfy the following safety rules:
 
 // a) If crewStatus is true, print "Crew Ready" else print "Crew Not Ready".
