@@ -1,8 +1,13 @@
-let num = 1001;
-
+let num1 = 1001;
+let num2 = 123.45;
 //Returns 'undefined'.
-console.log(num.length);
+console.log(String(num1).length);
 
+if (String(num2).includes('.')) {
+    console.log(String(num2).length-1);
+} else {
+    (String(num2).length);
+}
 //Use type conversion to print the length (number of digits) of an integer.
 
 //Follow up: Print the number of digits in a DECIMAL value (e.g. num = 123.45 has 5 digits but a length of 6).
