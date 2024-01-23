@@ -22,9 +22,8 @@ function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
     }
     meals.push(meal); 
 }    
-
   return meals;
-
+}
 
 
 function askForNumber() {
