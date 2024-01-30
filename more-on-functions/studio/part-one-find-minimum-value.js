@@ -16,4 +16,4 @@ function findMinNum(arr) {
 }
 //Using one of the test arrays as the argument, call your function inside the console.log statement below.
 
-console.log(findMinNum(nums1));
+// console.log(findMinNum(nums1));
