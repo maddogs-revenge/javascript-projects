@@ -29,5 +29,16 @@
 // console.log(typeof string)
 // console.log(Number(string))
 
-myArray = ['3,', '4', '5',
-]
+let myArray = ['bob', 'hey', 'three']
+// console.log(myArray)
+let dog = myArray.toString().toUpperCase().split(',')
+// console.log(dog)
+// console.log(myArray.length)
+
+function stars() {
+    for (i=0; i<myArray.length; i++) {
+        return myArray[i,i]
+    }
+
+}
+console.log(stars())
